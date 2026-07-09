@@ -20,8 +20,6 @@ export const EventsSection: React.FC = () => {
           </h3>
           
           <div className="bg-brand-card border border-brand-border rounded-lg p-6 flex flex-col flex-grow shadow-[0_4px_20px_rgba(0,0,0,0.4)] relative overflow-hidden group hover:border-brand-red/30 transition-all duration-300">
-            {/* Glowing top line for live card */}
-            <div className="absolute top-0 left-0 w-full h-[3px] bg-brand-red shadow-[0_0_10px_#ff3c47]" />
             
             {/* Card Header */}
             <div className="flex justify-between items-start mb-4">
