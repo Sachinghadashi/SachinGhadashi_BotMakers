@@ -1,32 +1,71 @@
-# React + TypeScript + Vite
+# BotMakers - BotLeague Web Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A premium, interactive web interface for **BotLeague**, India's national robot sports ecosystem. This platform highlights competition disciplines, user journeys, live and past tournament results, interactive matchmaking brackets, leaderboards, and an registration ecosystem.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 How to Run the Project Locally
 
-## React Compiler
+Follow these step-by-step instructions to set up and run the project on your laptop:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Prerequisites
+Ensure you have the following installed on your machine:
+* **Git**: [Download Git](https://git-scm.com/)
+* **Node.js** (v18.x or higher recommended): [Download Node.js](https://nodejs.org/)
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### 2. Setup Steps
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+#### Step A: Clone the Repository
+Open your terminal (or PowerShell / Command Prompt on Windows) and clone the repository:
+```bash
+git clone https://github.com/Sachinghadashi/SachinGhadashi_BotMakers.git
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+#### Step B: Navigate to the Project Folder
+Move into the cloned directory:
+```bash
+cd SachinGhadashi_BotMakers
+```
+
+#### Step C: Install Dependencies
+Install the required node modules:
+```bash
+npm install
+```
+
+#### Step D: Start the Local Development Server
+Run the project in development mode:
+```bash
+npm run dev
+```
+
+#### Step E: Open in Browser
+Once the server starts, open your web browser and navigate to:
+👉 **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 🛠️ Other Useful Commands
+
+### Build for Production
+To build the application assets for production deployment:
+```bash
+npm run build
+```
+
+### Preview Production Build
+To preview your local production build:
+```bash
+npm run preview
+```
+
+---
+
+## 💻 Tech Stack
+* **Framework**: React 18 with TypeScript
+* **Build Tool**: Vite
+* **Styling**: Tailwind CSS v4 (configured directly in `src/index.css`)
+* **Icons**: Lucide React
+* **Fonts**: Google Fonts (Orbitron, Roboto, Inter)
