@@ -1,4 +1,7 @@
 import React from 'react';
+import wrenchIcon from '../assets/wrench_icon.png';
+import tajmahalIcon from '../assets/tajmahal_icon.png';
+import peopleIcon from '../assets/people_icon.png';
 
 export const UserJourney: React.FC = () => {
   return (
@@ -36,11 +39,8 @@ export const UserJourney: React.FC = () => {
                 {/* Glow ring inside */}
                 <div className="absolute inset-[3px] rounded-full border border-blue-600 shadow-[0_0_10px_rgba(37,99,235,0.6)] bg-black/50" />
                 
-                {/* Icon Wrench/Screwdriver crossed */}
-                <svg className="w-9 h-9 text-white relative z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M16.24 7.76l-8.48 8.48m11.31-11.31a2.25 2.25 0 013.18 3.18l-2.83 2.83-3.18-3.18 2.83-2.83zM6.36 17.64l-2.83 2.83a1 1 0 01-1.41-1.41l2.83-2.83 1.41 1.41z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M7.76 16.24l8.48-8.48M6.24 17.76l1.42-1.42m-4.24 4.24a2.25 2.25 0 013.18-3.18l1.42 1.42m-1.42 1.42l-1.42-1.42" />
-                </svg>
+                {/* Custom Wrench Icon Image */}
+                <img src={wrenchIcon} alt="Build Team Icon" className="w-9 h-9 object-contain relative z-10 select-none" />
               </div>
 
               {/* Vertical line and Text Container */}
@@ -64,10 +64,8 @@ export const UserJourney: React.FC = () => {
                 {/* Glow ring inside */}
                 <div className="absolute inset-[3px] rounded-full border border-blue-600 shadow-[0_0_10px_rgba(37,99,235,0.6)] bg-black/50" />
                 
-                {/* India / Taj Mahal Icon */}
-                <svg className="w-10 h-10 text-white relative z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 20h18M5 20v-6h14v6M7 14v-4c0-1.5 1.5-2.5 5-2.5s5 1 5 2.5v4M12 7.5V5M10 20v-4c0-1.1.9-2 2-2s2 .9 2 2v4M4.5 20v-9M4 11h1M4.5 11v-1.5M19.5 20v-9M19 11h1M19.5 11v-1.5" />
-                </svg>
+                {/* Custom Taj Mahal Icon Image */}
+                <img src={tajmahalIcon} alt="Compete Icon" className="w-10 h-10 object-contain relative z-10 select-none" />
               </div>
 
               {/* Vertical line and Text Container */}
@@ -118,10 +116,8 @@ export const UserJourney: React.FC = () => {
                 {/* Glow ring inside */}
                 <div className="absolute inset-[3px] rounded-full border border-blue-600 shadow-[0_0_10px_rgba(37,99,235,0.6)] bg-black/50" />
                 
-                {/* Group/Team Icon */}
-                <svg className="w-9 h-9 text-white relative z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
-                </svg>
+                {/* Custom Group/Team Icon Image */}
+                <img src={peopleIcon} alt="Join League Icon" className="w-9 h-9 object-contain relative z-10 select-none" />
               </div>
 
               {/* Vertical line and Text Container */}
