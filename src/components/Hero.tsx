@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
           </h1>
 
           {/* Subtext Paragraph (Rajdhani, dot-separated, matching screenshot) */}
-          <p className="font-rajdhani text-gray-300 text-lg md:text-xl font-medium tracking-wide leading-snug max-w-lg">
+          <p className="font-rajdhani text-gray-300 text-lg md:text-xl font-medium tracking-wide leading-snug max-w-2xl">
             Build.Compete.Rank.The National Ecosystem for Robotics Arena
           </p>
 
