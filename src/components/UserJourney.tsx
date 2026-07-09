@@ -13,7 +13,7 @@ export const UserJourney: React.FC = () => {
           <h2 className="font-orbitron text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-wider text-white uppercase leading-tight">
             YOUR PATH TO THE LEAGUE
           </h2>
-          <p className="font-roboto text-gray-400 text-xs sm:text-sm md:text-base mt-2 max-w-xl mx-auto font-normal">
+          <p className="font-roboto text-gray-500 text-xs sm:text-sm md:text-base mt-2 max-w-xl mx-auto font-normal">
             Lorem Ipsum Lorem Ipsum Lorem Ipsum
           </p>
         </div>
