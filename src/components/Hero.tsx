@@ -25,13 +25,13 @@ export const Hero: React.FC = () => {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-red opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-red"></span>
         </span>
-        <span className="font-rajdhani text-xs md:text-sm tracking-wider uppercase font-bold flex items-center gap-1.5">
+        <span className="font-roboto text-xs md:text-sm tracking-wider font-bold flex items-center gap-1.5">
           <span className="text-brand-red">LIVE :</span>
           <span className="text-white">Episode 14 . Bengaluru Regionals</span>
         </span>
         <a 
           href="#live-stream" 
-          className="font-rajdhani text-xs md:text-sm text-brand-red font-extrabold hover:underline ml-2"
+          className="font-roboto text-xs md:text-sm text-brand-red font-bold hover:underline ml-2"
         >
           WATCH LIVE
         </a>
