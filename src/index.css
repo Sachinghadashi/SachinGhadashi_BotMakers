@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  --color-brand-red: #ff3c47;
+  --color-brand-red-hover: #e02f3a;
+  --color-brand-bg: #07080b;
+  --color-brand-card: #12131b;
+  --color-brand-border: #222533;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-brand-bg);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for premium dark-themed feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07080b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222533;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff3c47;
+}
+
+/* Custom glow effects */
+.glow-red {
+  box-shadow: 0 0 15px rgba(255, 60, 71, 0.4);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 10px rgba(255, 60, 71, 0.6);
+}
+
+/* Grid overlay for hero section to give it a techy aesthetic */
+.grid-overlay {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
