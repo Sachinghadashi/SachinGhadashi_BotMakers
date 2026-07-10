@@ -62,7 +62,7 @@ export const DisciplinesSection: React.FC = () => {
               <img 
                 src={disciplines[1].image} 
                 alt={disciplines[1].title}
-                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="py-5 px-6 bg-brand-card text-center border-t border-brand-border/40 min-h-[80px] flex items-center justify-center">
