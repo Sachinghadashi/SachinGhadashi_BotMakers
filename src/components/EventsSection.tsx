@@ -3,7 +3,13 @@ import { BracketView } from './BracketView';
 
 export const EventsSection: React.FC = () => {
   return (
-    <section className="bg-brand-bg max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <section 
+      className="py-16 md:py-24 border-t border-brand-border overflow-hidden"
+      style={{
+        background: 'radial-gradient(circle at 85% 15%, rgba(255, 60, 71, 0.15) 0%, transparent 60%), #181818'
+      }}
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       {/* Main Section Heading */}
       <h2 className="font-orbitron text-2xl md:text-3xl font-extrabold tracking-widest text-white mb-12 select-none">
@@ -133,6 +139,7 @@ export const EventsSection: React.FC = () => {
           </div>
         </div>
 
+      </div>
       </div>
     </section>
   );
