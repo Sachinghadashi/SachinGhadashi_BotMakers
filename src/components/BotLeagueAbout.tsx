@@ -7,7 +7,7 @@ import robomindsIcon from '../assets/robominds_icon.png';
 
 export const BotLeagueAbout: React.FC = () => {
   return (
-    <section className="bg-brand-bg py-20 md:py-28 border-t border-brand-border overflow-hidden">
+    <section className="bg-[#181818] py-20 md:py-28 border-t border-brand-border overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* ========================================================================= */}
